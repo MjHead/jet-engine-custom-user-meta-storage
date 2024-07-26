@@ -3,7 +3,7 @@
 Integrates JetEngine Custom Meta Storage feature (https://crocoblock.com/knowledge-base/jetengine/how-to-create-custom-meta-storage-for-cpt/) and User Meta.
 
 Usage:
-- Make sure you updated JetEngine plugin to the version 3.5.3 or higher
+- Make sure you updated JetEngine plugin to the version __3.5.3__ or higher
 - Download and install as usual WP plugin
 - Add the next code into the your active theme `functions.php` file or with any code snippet plugin:
 
