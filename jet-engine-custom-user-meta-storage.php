@@ -28,10 +28,15 @@ class Jet_Engine_Custom_User_Meta_Storage {
 	}
 
 	public function register_storage() {
+
+		if ( ! defined( 'JET_ENGINE_CUSTOM_USER_META_FIELDS' ) ) {
+			return;
+		}
+
 		\Jet_Engine\CPT\Custom_Tables\Manager::instance()->register_storage(
 			'user',
 			'user',
-			[ 'test_user_field' ]
+			JET_ENGINE_CUSTOM_USER_META_FIELDS
 		);
 	}
 
